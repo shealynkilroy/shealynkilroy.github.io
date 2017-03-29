@@ -1,0 +1,488 @@
+<head>
+    <!-- script links below for chart 1 and 2 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <style>
+    @font-face {
+        font-family: "Didot";
+        src:url(fonts/Didot.ttf);
+        }
+    @font-face{
+        font-family: "Franklin Light";
+        src:url(fonts/franklin-gothic-light-ssi-light.ttf);
+    }
+
+    @font-face{
+        font-family:"Franklin Bold";
+        src:url(fonts/FranklinGothicMedium.ttf);
+    }
+
+    body {
+        margin-left: 5%;
+        margin-right:5%;
+    }
+
+    h1 { 
+        display: block; 
+        font-family: "Didot", serif;
+        text-align: center; 
+        font-size:50px;
+        line-height:90%;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #byline {
+        text-align: center;
+        font-family: "Franklin Light", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        color:gray;
+        padding-bottom:2.5%;
+        padding-top:2.5%;
+    }
+
+    p {
+        font-family: "Franklin Light", Helvetica, Arial, sans-serif;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        word-spacing:-1px;
+    }
+    h2{
+        font-family: "Franklin Bold",Helvetica,Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 800;
+        text-align:center;
+    }
+    .paragraphs{
+        margin-right:7%;
+        margin-left:7%;
+    }
+
+    .top {
+        text-align:center;
+        margin-left:12.5%;
+    }
+
+    .topleft, .topright {
+        display: inline-block;
+        width:45%;
+    }
+
+    .iconwrap1{
+        width:60%;
+    }
+    .iconwrap2{
+        width:60%;
+    }
+
+    .movietitleleft{
+        font-family:"Franklin Bold", Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size:1.25em;
+        line-height: 90%;
+        margin-bottom:-5%;
+    }
+
+    .dollars{
+        font-family:"Franklin Light", Helvetica, Arial, sans-serif;
+        font-size:0.9em;
+    }
+    #chart1{
+        margin-left:12.5%;
+        margin-right:12.5%;
+    }
+    #chart2{
+        min-height: 500px;
+    }
+
+    .bottom-source {
+            color:#969696;
+            line-height:20px;
+            font-size:.8em;
+            border-bottom:1px solid #d5d5d5;
+            padding-bottom:5px;
+            margin-bottom:20px;
+        }
+
+
+    @media(max-width: 480px){
+        .topleft img, .topright img{
+            display: none
+        }
+        .movietitleleft {
+            line-height: 95%;
+            margin-bottom:-5%;
+        }
+        h1{
+            margin-left:10%;
+            margin-right:10%;
+        }
+        h2{
+            margin-left:5%;
+            margin-right:5%;
+        }
+        body {
+            margin-left:0%;
+            margin-right:0%;
+        }
+        #chart2{
+            margin-left:-20%;
+            min-width: 400px;
+        }
+
+    }
+    </style>
+    </head>
+<body>
+    <h1>Gender breakdown <br>
+        of the<br>
+        highest-grossing<br>
+        movies<Br>
+        of 2016<br>
+    </h1>
+    <div id="byline">BY: SHEALYN KILROY<BR>
+    <BR>
+    DATA STORY II - MARCH 29, 2017
+    <BR>
+    </div>
+
+    <div class="paragraphs">
+        <p>The count is in. 2016 is over, which means the totals are in to rank the top ten highest-grossing movies from the year. </p>
+
+        <p>However, the sales figures are not the only counts coming in. Researcher Amber Thomas collected the transcripts and produced a data set breaking down gender factor of these movies: from character count to amount of words spoken of each gender. The numbers have been counted and analyzed to find out where these movies stand in gender equality. Within the data of the highest-grossing an answer is being sought for the question, <em>Is there there a gender gap?</em>
+    </div>
+
+    <h2>Top 10 worldwide box-office earners of 2016
+    </h2>
+
+      <div class="paragraphs">
+        <p> Last year, the movie industry took in a total of $11.1 billion dollars in global ticket sales. Five of the 10 highest-grossing movies based on global ticket sales came from Disney, including Captain America: Civil War and Finding Dory.
+        Rogue One was released on December 10, 2016 and came in as the 
+        As of Dec. 29, 2016, these are the estimated 
+        global ticket sales of the biggest releases of 2016 ranked:
+    </div>
+
+    <div class="top">
+        <div class="topleft">
+            <div class="iconwrap1">
+                 <img src="imgs/captainamericaicon-01.svg"></img>
+                <p class="movietitleleft">1. Captain America: <BR>Civil War</p>
+                <p class="dollars">$1.153 billion</p>
+            </div>
+
+            <br>
+
+            <div class="iconwrap1">
+                <img src="imgs/Zootopiaicon-01.svg"></img>
+                <p class="movietitleleft">3. Zootopia</p>
+                <p class="dollars">$1.023 billion</p>
+            </div>
+
+            <br>
+
+            <div class="iconwrap1">
+                <img src="imgs/secretlifeofpetsicon-01.svg"></img>
+                <p class="movietitleleft">5. Secret Life of Pets</p>
+                <p class="dollars">$875.4 million</p>
+            </div>
+
+            <br>
+
+            <div class="iconwrap1">
+                <img src="imgs/deadpoolicon-01.svg"></img>
+                <p class="movietitleleft">7. Deadpool</p>
+                <p class="dollars">$783.1 million</p>
+            </div>
+
+            <br>
+
+            <div class="iconwrap1">
+                <img src="imgs/suicidesquadicon-01.svg"></img>
+                <p class="movietitleleft">9. Suicide Squad</p>
+                <p class="dollars">$745.6 million</p>
+            </div>
+
+        </div>
+        <div class="topright">
+            <div class="iconwrap2">
+                <img src="imgs/findingdoryicon-01.svg"></img>
+                <p class="movietitleleft">2. Finding Dory</p>
+                <BR>
+                <p class="dollars">$1.027 billion</p>
+            </div>
+
+            <br>
+
+            <div class="iconwrap2">
+                <img src="imgs/junglebookicon-01.svg"></img>
+                <p class="movietitleleft">4. Jungle Book</p>
+                <p class="dollars">$966.5 million</p>
+            </div>
+
+                <br>
+
+            <div class="iconwrap2">
+                <img src="imgs/batmanicon-01.svg"></img>
+                <p class="movietitleleft">6. Batman</p>
+                <p class="dollars">$873.2 million</p>
+            </div>
+
+                <br>
+
+            <div class="iconwrap2">
+                <img src="imgs/fantasticbeastsicon-01.svg"></img>
+                <p class="movietitleleft">8. Fantastic Beasts</p>
+                <p class="dollars">$746.1 million</p>
+            </div>
+
+                <br>
+                   
+            <div class="iconwrap2">
+                <img src="imgs/rogueoneicon-01.svg"></img>
+                <p class="movietitleleft">10. Rogue One</p>
+                <p class="dollars">$675 million</p>
+            </div>
+        </div>
+    </div>
+
+     <h2>Characters' gender</h2>
+     <div class ="paragraphs"><p>Not a single one of the highest-grossing movies in 2016 have an equal gender representation of characters. Each movie is made of at least 58% of male characters. Rogue One has the highest percentage of male characters with 96 male characters and 10 female characters. Finding Dory pushes the line the closest to equal representation with 58% male characters and 42% female characters. Zootopia has 2 characters with a gender that cannot be identified. The chart below provides the percentage and count of the gender of the characters of each movie: </p>
+     </div>
+
+    <div id="chart1">
+    </div>
+
+    <h2>Dialogue breakdown</h2>
+
+    <div class="paragraphs">
+        <p>One movie pushed the total words spoken of female characters passed the 50% line. With a main character voiced by Ellen Degenerous, Finding Dory has 52.9% of female character spoken dialogue. Zootopia come in second for being gender equal in dialogue. The movie with the highest count of words spoken by male character is Captain America: Civil War, with over 83%. The total spoken words per gender for each movie is visualized in the following chart:</p>
+    </div>
+
+    <div id="chart2">
+    </div>
+
+    <div class="bottom-source">
+            <p>Source: <a href="http://www.businessinsider.com/highest-grossing-movies-of-2016-ranked-2016-12">Business Insider.</a><BR>
+            Data set via <a href="https://github.com/ProQuestionAsker/2016MovieDialogue">Amber Thomas.</a></p>
+    </div>
+    <!-- script below for chart 1 -->
+    <script>
+    Highcharts.chart('chart1', {
+        chart: {
+            type:'column',
+            align: 'center',
+            style: {
+                fontFamily:'Franklin Light',
+            }
+        },
+
+        title: {
+             text: ' '
+         },
+
+        credits: {
+            enabled: false
+        },
+
+        exporting: {
+            enabled: false
+        },
+
+        xAxis: {
+            categories: ['Captain America', 'Finding Dory', 'Zootopia', 'Jungle Book', 'Secret Life of Pets', 'Batman v Superman', 'Deadpool','Fantastic Beasts', 'Suicide Squad', 'Rogue One'],
+            labels: {
+                style: {
+                    fontSize:'1.2em'
+                }
+            }          
+         },
+
+        yAxis: {
+            min: 0,
+            labels: {
+                formatter: function(){
+                    if(this.value === 50){
+                        return this.value + '%';
+                    }
+                },
+
+
+            },
+            gridLineWidth: 0,
+            minorGridLineWidth: 0,
+            title: {
+                text: ' '
+            },
+            plotLines:[{
+                color:'#999999',
+                width: 1,
+                value: 50,
+            }]
+        },
+
+        tooltip: {
+            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+            
+            shared: true,
+        },
+
+        legend: {
+            itemHoverStyle: {
+                cursor: 'default'
+            },
+            itemStyle: {
+                fontSize:'1.2em'
+            },
+        },
+
+        plotOptions: {
+            column: {
+                stacking: 'percent',
+                events: {
+                    legendItemClick: function(){
+                        return false;
+                    }
+                }
+            },
+            allowPointSelect:false
+        },
+
+        series: [{
+            name: 'Female Characters',
+            data: [13,21,25,6,13,20,10,16,14,10],
+            color:'#928eb1'
+        }, 
+        {
+            name: 'Male Characters',
+            data: [34,29,40,22,35,62,24,33,51,96],
+            color: '#a5bde5'
+        }, 
+        {
+            name: 'Gender of Character Unknown',
+            data: [0,0,2,0,0,0,0,0,0,0],
+            color: '#0b205c'
+        }],
+
+        responsive: {
+            rules: [{
+                condition:{
+                    maxWidth:500,
+                },
+
+                chartOptions: {
+                    xAxis: {
+                        labels: {
+                            enabled: false
+                        },
+                    },
+                },
+            }],
+        },
+    });
+    </script>
+
+    <!-- script below for chart 2 -->
+    <script>
+    Highcharts.chart('chart2', {
+        chart: {
+            type: 'bar',
+            spacingRight: 100,
+            spacingLeft:100,
+            style: {
+                fontFamily: "Franklin Light",
+            }
+        },
+        title: {
+            text: ' '
+        },
+
+        credits: {
+            enabled: false
+        },
+
+        exporting: {
+            enabled: false
+        },
+
+        tooltip: {
+            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.1f}%)<br/>'
+        },
+
+        xAxis: {
+            categories: ['Captain America', 'Finding Dory', 'Zootopia', 'Jungle Book', 'Secret Life of Pets', 'Batman v Superman', 'Deadpool','Fantastic Beasts', 'Suicide Squad', 'Rogue One'],
+            labels: {
+                style: {
+                    fontSize:'1.2em'
+                }
+            }
+        },
+
+        yAxis: {
+            min: 0,
+
+            title: {
+                text: ' '
+            },
+    
+            gridLineWidth: 0,
+
+            labels: {
+                formatter: function(){
+                    if(this.value === 50){
+                        return this.value + '%';
+                    }
+                }
+            },
+            plotLines:[{
+                color:'#999999',
+                width: 1,
+                value: 50,
+            }]
+        },
+
+
+        legend: {
+            enabled:false,
+            reversed: false,
+            itemHoverStyle: {
+                cursor: 'default'
+            },
+            itemStyle: {
+                fontSize:'1em'
+            }, 
+        },
+
+        plotOptions: {
+            series: {
+                stacking: 'percent',
+                pointWidth: 30,
+                events: {
+                legendItemClick: function() {
+                return false;
+                    }
+                }
+            }
+        },
+
+        series: [{
+            name: 'Total spoken words of female characters',
+            data: [1656,5667,4524,591,1178,1583,771,2068,2427,1345],
+            color:'#928eb1'
+            }, 
+            {
+            name: 'Total spoken words of male characters',
+            data: [8427,5042,5329,5381,4999,5421,7375,4394,5134,6718],
+            color: '#a5bde5'
+            }]
+    });
+
+    Highcharts.setOptions({
+        lang: {
+            decimalPoint: '.',
+            thousandsSep: ','
+        }
+     });
+    </script>
+</body>
