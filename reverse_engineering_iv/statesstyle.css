@@ -1,0 +1,39 @@
+.card{
+		display:none;
+		float:right;
+		width:300px;
+		margin: 0px 20px;
+		border-top: 1px solid #efefef;
+		border-bottom: 1px solid #efefef;
+		border-radius: 2px;
+		font-family: Helvetica;
+		font-weight: 100;
+		font-size:13px;
+		padding: 0px 10px;
+	}
+
+	.state-groups:hover{
+		stroke: #333333;
+		stroke-width:.7px;
+		cursor: pointer;
+	}
+
+	.state-groups.active{
+		stroke: #333333;
+		stroke-width:1px;
+	}
+
+	svg {
+		max-width:550px;
+		float:left;
+	}
+	
+	#national {
+		display:block;
+	}
+
+	.nationwide-btn:hover {
+		color: #2e6d9d; 
+		text-decoration:underline; 
+		cursor:pointer;
+	}
