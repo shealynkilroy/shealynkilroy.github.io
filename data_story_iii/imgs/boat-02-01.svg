@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 891 519.6" style="enable-background:new 0 0 891 519.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B3B3B3;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#CCCCCC;stroke:#000000;stroke-miterlimit:10;}
+	.st4{font-family:'Didot-Bold';}
+	.st5{font-size:305px;}
+	.st6{letter-spacing:4.6;}
+</style>
+<g id="boatbottom">
+	<path class="st0" d="M811.9,169.5c0.1,180.7-165.6,327.3-370,327.4S71.7,350.6,71.7,169.9l370.1-0.2L811.9,169.5z"/>
+	<rect x="583.9" y="193.9" class="st1" width="89.9" height="28"/>
+	<rect x="216.3" y="193.9" class="st1" width="56.4" height="27"/>
+</g>
+<g id="towers">
+	<line class="st2" x1="173.1" y1="171.5" x2="173.1" y2="17.5"/>
+	<line class="st2" x1="269.1" y1="170.5" x2="269.1" y2="22"/>
+	<ellipse class="st3" cx="221.1" cy="17.5" rx="48" ry="17"/>
+	<line class="st2" x1="325.1" y1="170.5" x2="325.1" y2="15"/>
+	<line class="st2" x1="421.1" y1="170" x2="421.1" y2="18.5"/>
+	<ellipse class="st3" cx="373.1" cy="18.5" rx="48" ry="17"/>
+	<line class="st2" x1="475.1" y1="171" x2="475.1" y2="17.5"/>
+	<line class="st2" x1="571.1" y1="169.5" x2="571.1" y2="18"/>
+	<ellipse class="st3" cx="523.1" cy="17.5" rx="48" ry="17"/>
+	<line class="st2" x1="621.1" y1="170.5" x2="621.1" y2="17.5"/>
+	<line class="st2" x1="717.1" y1="169.5" x2="717.1" y2="18"/>
+	<ellipse class="st3" cx="669.1" cy="17.5" rx="48" ry="17"/>
+</g>
+<rect x="393.4" y="204.3" class="st1" width="141.1" height="257.8"/>
+<text transform="matrix(0.871 0 0 1 393.3918 424.2227)" class="st4 st5 st6">?</text>
+</svg>

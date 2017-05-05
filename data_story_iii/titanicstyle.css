@@ -1,0 +1,82 @@
+
+      @font-face {
+        font-family: "Didot";
+        src:url(fonts/Didot.ttf);
+      }
+
+     @font-face{
+        font-family: "Franklin Light";
+        src:url(fonts/franklin-gothic-light-ssi-light.ttf);
+      }
+
+      @font-face{
+        font-family:"Franklin Bold";
+        src:url(fonts/FranklinGothicMedium.ttf);
+      }
+
+      h1 { 
+        display: block; 
+        font-family: "Didot", serif;
+        text-align: center; 
+        font-size:50px;
+        line-height:90%;
+        margin-top: 40px;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        display:block;
+        font-family:"Didot", serif;
+        text-align:center;
+        font-style: italic;
+      }
+
+      #byline {
+        text-align: center;
+        font-family: "Franklin Light", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        color:gray;
+        padding-bottom:2.5%;
+      }
+
+      p {
+        font-family: "Franklin Light", Helvetica, Arial, sans-serif;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        word-spacing:-1px;
+       }
+  
+      #chart1 {
+        max-width: 80%;
+        margin:auto;
+        display:block;
+        border-bottom:1px solid #d5d5d5;
+      }
+      .paragraphs {
+        margin-right:7%;
+        margin-left:7%;
+      }
+
+      h3 {
+        font-family: "Franklin Bold",Helvetica,Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 800;
+        text-align:center;
+      }
+      .line {
+        max-width:80%;
+        margin:auto;
+        display:block;
+        border-bottom:1px solid #d5d5d5;
+      }
+
+
+      #bottom-source {
+            color:#969696;
+            line-height:20px;
+            font-size:.8em;
+            border-bottom:1px solid #d5d5d5;
+            padding-bottom:5px;
+            margin-bottom:20px;
+        }

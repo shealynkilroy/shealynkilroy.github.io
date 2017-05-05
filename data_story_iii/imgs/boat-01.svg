@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 891 519.6" style="enable-background:new 0 0 891 519.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B3B3B3;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'FranklinGothic-Medium';}
+	.st4{font-size:28px;}
+	.st5{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st6{fill:#CCCCCC;stroke:#000000;stroke-miterlimit:10;}
+	.st7{fill:#236D8C;}
+	.st8{font-size:36px;}
+</style>
+<g id="boatbottom">
+	<path class="st0" d="M887.5,170.6c0.1,180.7-197.7,327.3-441.8,327.4S3.6,351.7,3.6,171l442-0.2L887.5,170.6z"/>
+	<rect x="615.3" y="195" class="st1" width="107.3" height="28"/>
+	<text transform="matrix(1 0 0 1 615.3074 213.6895)" class="st2 st3 st4">Survived</text>
+	<rect x="176.3" y="195" class="st1" width="67.3" height="27"/>
+	<text transform="matrix(1 0 0 1 176.3074 213.6895)" class="st2 st3 st4">Died</text>
+</g>
+<g id="towers">
+	<line class="st5" x1="173.1" y1="171.5" x2="173.1" y2="17.5"/>
+	<line class="st5" x1="269.1" y1="170.5" x2="269.1" y2="22"/>
+	<ellipse class="st6" cx="221.1" cy="17.5" rx="48" ry="17"/>
+	<line class="st5" x1="325.1" y1="170.5" x2="325.1" y2="15"/>
+	<line class="st5" x1="421.1" y1="170" x2="421.1" y2="18.5"/>
+	<ellipse class="st6" cx="373.1" cy="18.5" rx="48" ry="17"/>
+	<line class="st5" x1="475.1" y1="171" x2="475.1" y2="17.5"/>
+	<line class="st5" x1="571.1" y1="169.5" x2="571.1" y2="18"/>
+	<ellipse class="st6" cx="523.1" cy="17.5" rx="48" ry="17"/>
+	<line class="st5" x1="621.1" y1="170.5" x2="621.1" y2="17.5"/>
+	<line class="st5" x1="717.1" y1="169.5" x2="717.1" y2="18"/>
+	<ellipse class="st6" cx="669.1" cy="17.5" rx="48" ry="17"/>
+</g>
+<g id="boxes">
+	<rect id="thirdclassbox" x="169.6" y="223" class="st7" width="552" height="48"/>
+	<rect id="secondclassbox" x="169.6" y="289" class="st7" width="552" height="46"/>
+	<rect id="firstclassbox" x="169.6" y="353" class="st7" width="552" height="48.5"/>
+	<g id="text_1_">
+		<rect x="365.3" y="360" class="st1" width="172.3" height="31"/>
+		<text transform="matrix(1 0 0 1 365.3074 384.0303)" class="st2 st3 st8">Third Class</text>
+		<rect x="365.3" y="231.8" class="st1" width="160.3" height="34.2"/>
+		<text transform="matrix(1 0 0 1 365.3074 255.8086)" class="st2 st3 st8">First Class</text>
+	</g>
+	<rect x="345.3" y="296" class="st1" width="211.3" height="39"/>
+	<text transform="matrix(1 0 0 1 345.3074 320.0303)" class="st2 st3 st8">Second Class</text>
+	<rect x="637.3" y="366" class="st1" width="83.3" height="23"/>
+	<text transform="matrix(1 0 0 1 637.3074 384.6895)" class="st2 st3 st4">25.5%</text>
+	<rect x="179.3" y="237" class="st1" width="83.3" height="23"/>
+	<text transform="matrix(1 0 0 1 179.3074 255.6895)" class="st2 st3 st4">38.1%</text>
+	<rect x="659.3" y="300" class="st1" width="83.3" height="23"/>
+	<text transform="matrix(1 0 0 1 659.3074 318.6895)" class="st2 st3 st4">43%</text>
+	<rect x="179.3" y="366" class="st1" width="83.3" height="23"/>
+	<text transform="matrix(1 0 0 1 179.3074 384.6895)" class="st2 st3 st4">74.5%</text>
+	<rect x="179.3" y="300" class="st1" width="83.3" height="23"/>
+	<text transform="matrix(1 0 0 1 179.3074 318.6895)" class="st2 st3 st4">57%</text>
+	<rect x="637.3" y="235" transform="matrix(1 -3.144338e-03 3.144338e-03 1 -0.7717 2.136)" class="st1" width="83.3" height="23"/>
+	<text transform="matrix(1 0 0 1 637.3293 253.5586)" class="st2 st3 st4">61.9%</text>
+</g>
+</svg>
