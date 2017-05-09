@@ -3,6 +3,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
     <!-- style sheet below-->
     <link rel="stylesheet" type="text/css" href="titanicstyle.css">
 
@@ -10,42 +12,110 @@
 
 <body>
   <h1>Surviving Shipwreck</h1>
-  <h2>Data shows who makes up Titanic's survivors, breaks down the costs
-        <br> 
-        and questions whether they got a fair chance</h2>
+  <h2>Data shows who makes up the survivors of the Titanic<br>and how much they paid</h2>
   <div id="byline">BY SHEALYN KILROY<BR>
   <BR>
   DATA STORY III - MAY 9, 2017
 
   </div>
   <div class="paragraphs">
-    <p>Four days after setting sail from England on April 10, 1912, the unsinkable <i>Titanic</i> would sink after hitting an iceberg, become the most recognized shipwreck of the 20th century. Out of the 2,208 passengers and crew aboard the Titanic, an estimated 712 people survived. </p>
+    <p>Four days after setting sail from England on April 10, 1912, the unsinkable <i>Titanic</i> would sink after hitting an iceberg, become the most recognized shipwreck of the 20th century. Out of the 2,208 passengers and crew aboard the Titanic, an estimated 712 people suvived. </p>
 
-    <p>After analyzing a dataset with information on 1,310 passengers, details in numbers show who survived and died in terms of Class, gender, age, and fare cost. </p>
+    <p>After analyzing a dataset with information on 1,310 passengers, details in numbers show who survived and died in terms of class, gender, age, and fare cost. </p>
 
     <P>Sorry, Leo does not play a role in this <i>Titanic</i> narrative.
   </div>
 
   <h3>To Live and Die in Class</h3>
   <div class="paragraphs">
-    <p><i>Titanic</i> consisted of three Classes: First, Second, and Third. Passengers aboard the First Class are known to be some of the wealthiest in the world. Most of the First Class cabins and designated-areas were in the upper parts of the ship. While not having access to all of the luxuries of First Class, Second Class accommodations were still pleasant for most; the Second Class had a smoking room. Second Class rooms and cabins were in the middle deck and closer to the rear of the boat. Third Class passengers boarded <i> Titanic</i> simply for the means of getting to the United States for a better life. Third Class was in steerage. 
+    <p><i>Titanic</i> consisted of three classes: First, Second, and Third. Passengers aboard the First Class are known to be some of the wealthiest in the world. First Class barracks generally in the upper parts of the ship. While not having access to all of the luxuries of First Class, Second Class accommodations were still pleasant; the Second Class had a smoking room. Second Class rooms and cabins were in the middle deck and closer to the rear of the boat. Third Class passengers boarded the Titanic simply for the means of getting to the United States for a better life. Third Class was in steerage. 
     <BR>
     <BR>
     According to the data, a total of 323 passengers were in First Class, 277 passengers were in Second Class, and 709 passengers were in Third Class. First Class was the only class out of the three to have more passengers survive than die; 200 passengers lived, and 123 died. 528 Third Class passengers died. 
     <p>
   </div>
-  <div id="chart1"><img src="imgs/boat-01.svg"></div>
+  <div id="chart1"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 891 519.6" style="enable-background:new 0 0 891 519.6;" xml:space="preserve">
+<defs>
+  <style type="text/css">
+    @font-face {
+      font-family: 'FranklinGothic-Medium';
+      src: url(fonts/franklingothicmedium.ttf);
+    }
+  </style>
+</defs>
+<style type="text/css">
+    .st0{fill:#B3B3B3;stroke:#000000;stroke-miterlimit:10;}
+    .st1{fill:none;}
+    .st2{fill:#FFFFFF;}
+    .st3{font-family:'FranklinGothic-Medium';}
+    .st4{font-size:28px;}
+    .st5{fill:none;stroke:#000000;stroke-miterlimit:10;}
+    .st6{fill:#CCCCCC;stroke:#000000;stroke-miterlimit:10;}
+    .st7{fill:#236D8C;}
+    .st8{font-size:36px;}
+</style>
+<g id="boatbottom">
+    <path class="st0" d="M887.5,170.6c0.1,180.7-197.7,327.3-441.8,327.4S3.6,351.7,3.6,171l442-0.2L887.5,170.6z"/>
+    <rect x="615.3" y="195" class="st1" width="107.3" height="28"/>
+    <text transform="matrix(1 0 0 1 615.3074 213.6895)" class="st2 st3 st4">Survived</text>
+    <rect x="176.3" y="195" class="st1" width="67.3" height="27"/>
+    <text transform="matrix(1 0 0 1 176.3074 213.6895)" class="st2 st3 st4">Died</text>
+</g>
+<g id="towers">
+    <line class="st5" x1="173.1" y1="171.5" x2="173.1" y2="17.5"/>
+    <line class="st5" x1="269.1" y1="170.5" x2="269.1" y2="22"/>
+    <ellipse class="st6" cx="221.1" cy="17.5" rx="48" ry="17"/>
+    <line class="st5" x1="325.1" y1="170.5" x2="325.1" y2="15"/>
+    <line class="st5" x1="421.1" y1="170" x2="421.1" y2="18.5"/>
+    <ellipse class="st6" cx="373.1" cy="18.5" rx="48" ry="17"/>
+    <line class="st5" x1="475.1" y1="171" x2="475.1" y2="17.5"/>
+    <line class="st5" x1="571.1" y1="169.5" x2="571.1" y2="18"/>
+    <ellipse class="st6" cx="523.1" cy="17.5" rx="48" ry="17"/>
+    <line class="st5" x1="621.1" y1="170.5" x2="621.1" y2="17.5"/>
+    <line class="st5" x1="717.1" y1="169.5" x2="717.1" y2="18"/>
+    <ellipse class="st6" cx="669.1" cy="17.5" rx="48" ry="17"/>
+</g>
+<g id="boxes">
+    <rect id="thirdclassbox" x="169.6" y="223" class="st7" width="552" height="48"/>
+    <rect id="secondclassbox" x="169.6" y="289" class="st7" width="552" height="46"/>
+    <rect id="firstclassbox" x="169.6" y="353" class="st7" width="552" height="48.5"/>
+    <g id="text_1_">
+        <rect x="365.3" y="360" class="st1" width="172.3" height="31"/>
+        <text transform="matrix(1 0 0 1 365.3074 384.0303)" class="st2 st3 st8">Third Class</text>
+        <rect x="365.3" y="231.8" class="st1" width="160.3" height="34.2"/>
+        <text transform="matrix(1 0 0 1 365.3074 255.8086)" class="st2 st3 st8">First Class</text>
+    </g>
+    <rect x="345.3" y="296" class="st1" width="211.3" height="39"/>
+    <text transform="matrix(1 0 0 1 345.3074 320.0303)" class="st2 st3 st8">Second Class</text>
+    <rect x="637.3" y="366" class="st1" width="83.3" height="23"/>
+    <text transform="matrix(1 0 0 1 637.3074 384.6895)" class="st2 st3 st4">25.5%</text>
+    <rect x="179.3" y="237" class="st1" width="83.3" height="23"/>
+    <text transform="matrix(1 0 0 1 179.3074 255.6895)" class="st2 st3 st4">38.1%</text>
+    <rect x="659.3" y="300" class="st1" width="83.3" height="23"/>
+    <text transform="matrix(1 0 0 1 659.3074 318.6895)" class="st2 st3 st4">43%</text>
+    <rect x="179.3" y="366" class="st1" width="83.3" height="23"/>
+    <text transform="matrix(1 0 0 1 179.3074 384.6895)" class="st2 st3 st4">74.5%</text>
+    <rect x="179.3" y="300" class="st1" width="83.3" height="23"/>
+    <text transform="matrix(1 0 0 1 179.3074 318.6895)" class="st2 st3 st4">57%</text>
+    <rect x="637.3" y="235" transform="matrix(1 -3.144338e-03 3.144338e-03 1 -0.7717 2.136)" class="st1" width="83.3" height="23"/>
+    <text transform="matrix(1 0 0 1 637.3293 253.5586)" class="st2 st3 st4">61.9%</text>
+</g>
+</svg>
+</div>
 
 
   <h3>"Women and Children First"</h3>
   <div class="paragraphs">
-    <p>The order "women and children first" to board the lifeboats upon collision is one of the most famous associations to the drama of <i>Titanic</i>. To find the truth behind the phrase, an analyzation of the demographics of who survived and died was made.</p>
+    <p>The order "women and children first" to board the lifeboats upon collision is one of the famous associations to the drama of <i>Titanic</i>. To find the truth behind the phrase, an analyzation of the demographics of who survived and died was made.</p>
     
     <p>The amount of female passengers that survived largely passed the number of male passengers that survived. Out of the total of 466 female passengers, 339 survived. Only 161 of the total 843 male passengers survived. </p>
   </div>
   <div id="chart2a"></div>
   <div class="paragraphs">
-    <p>With women out surviving men, the survival of children must be looked at to see if the entire phrase holds truthful substance.
+    <p>With women out surviving men, the survival of children must be looked out to see if the entire phrase holds truthful substance.
     <BR>
     <BR>
     More children did survive than adults; 52.6% of children survived, and 36.3% of adults survived.</p> 
@@ -57,21 +127,18 @@
   <div class="paragraphs">
     <p> The average fare cost paid by those who survived and died in each Class was calcuated. Due to the ship departing from England, passengers bought a ticket in pre-1970 Great British Pounds (GBP).</p>
 
-    <p> For First and Second Class passengers, survivors paid a higher fare cost than those of their same Class who died. Of the 200 First Class passengers who survived, an average fare cost of 98.52 GBP was paid. </p>
+    <p> For First and Second Class passengers, survivors paid a higher fare cost than those of their class who died. Of the 200 First Class passengers who survived, an average fare cost of 98.52 GBP was paid. </p>
     
   </div>
   <div id="chart3"></div>
   <div class ="paragraphs">
-  <p>When <i>Titanic</i> sunk, <a href="https://www.youtube.com/watch?v=FSGeskFzE0s"> researchers believe</a> the bottom of the boat began to fill up with cold ocean water. This is where Third Class cabins were located. As stated earlier, the First Class rooms and cabins were towards the upper deck of the ship...near the lifeboats. </p>
-  <p> There are many unaswered questions: Were First Class passengers being allowed on life boats first? Did Third Class passengers get a fair chance of survival? Did you have to be rich to survive the sinking of <i> Titanic</i>?</p>
+  <p>When <i>Titanic</i> sunk, <a href="https://www.youtube.com/watch?v=FSGeskFzE0s"> researchers believe</a> the bottom of the boat began to fill up with cold ocean water. The is where Third Class cabins were located. As stated earlier, the First Class rooms and cabins were towards the upper deck of the ship...near the lifeboats. </p>
+  <p> There are many unaswered questions: Were First Class passengers being allowed on life boats first? Did Third Class passengers get a fair chance of survival? Did you have to be rich to survive?</p>
   </div>
   <div class="paragraphs">
-    <p>Based on this dataset, a conclusion can be made; if you were a wealthy woman in First Class on <i>Titanic</i>, you most likely survived.
-    <BR>
-    <BR>
-    And you probably move over to make room on the door, either. </p>
+    <p>Based on this dataset, a conclusion can be made; if you were a wealthy woman in First Class on <i>Titanic</i>, you most likely survived.</p>
   </div>
-  <div id="bottom-source" class="paragraphs">
+  <div id="bottom-source">
             <p>Source: <a href="https://www.encyclopedia-titanica.org/">Encyclopedia Titanica</a><BR>
             More information about the dataset can be found <a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3info.txt">here</a>.</p>
   </div>
@@ -322,8 +389,16 @@
       },
 
     legend: {
-        enabled: false
-    },
+            enabled:true,
+            reversed: false,
+            verticalAlign: 'top',
+            itemHoverStyle: {
+                cursor: 'default'
+            },
+            itemStyle: {
+                fontSize:'1em'
+            }, 
+        },
 
     credits: {
         enabled: false
